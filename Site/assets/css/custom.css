@@ -6,6 +6,7 @@ Place here your custom CSS styles
 .navbar-custom .navbar-brand {
   font-family: "Roboto", sans-serif;
   text-transform: lowercase;
+  font-size: 21px;
 }
 
 /* header logo text effect on "m" */
@@ -105,4 +106,10 @@ Place here your custom CSS styles
 
 .btn {
   margin-right: 15px;
+}
+
+/* magnifying glass next to gallery text */
+
+.galleryGlass {
+  font-size: smaller;
 }
