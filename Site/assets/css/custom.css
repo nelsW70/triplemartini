@@ -1,20 +1,16 @@
-/* ------------------------------------------------------------------
-Project: Semantic
-Place here your custom CSS styles
------------------------------------------------------------------- */
 
 .navbar-custom .navbar-brand {
   font-family: "Roboto", sans-serif;
+  font-size: 24px;
   text-transform: lowercase;
-  font-size: 21px;
 }
 
 /* header logo text effect on "m" */
 
 .navbar-brand span {
-  position:relative;
   height: 16px;
   line-height: 13px;
+  position:relative;
 }
 
 .navbar-brand > span {
@@ -46,32 +42,27 @@ Place here your custom CSS styles
 
 .fa-stack a:hover {
   color: white;
-  transition-property: color;
-    transition-duration: 0.75s;
-    transition-timing-function: initial;
-    transition-delay: initial;
+  transition-delay: initial;
+  transition-duration: 0.75s;
+  transition-timing-function: initial;
+
 }
 
 .iconBadge {
-  /*border-radius: .125rem;
-  border-radius: .3rem;*/
+  border: .14rem solid #999;
   border-radius: 10rem;
-  /*box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);*/
   display: inline-block;
-  /*padding: .25em .4em;*/
   font-size: 70%;
   text-align: center;
-  /*white-space: nowrap;*/
-  border: .14rem solid #999;
 }
 
 .iconBadge:hover {
-  border: .14rem solid rgb(15,15,15);
   background-color: rgb(15,15,15);
+  border: .14rem solid rgb(15,15,15);
   transition-property: all;
-    transition-duration: 0.75s;
-    transition-timing-function: initial;
-    transition-delay: initial;
+  transition-delay: initial;
+  transition-duration: 0.75s;
+  transition-timing-function: initial;
 }
 
 /* icon section less padding */
@@ -108,4 +99,26 @@ Place here your custom CSS styles
 
 .galleryGlass {
   font-size: smaller;
+}
+
+/* hide signature */
+
+.signature {
+  display: none;
+}
+
+/* once the project sort option disappears this makes the overlay with text visible on portfolio content*/
+
+@media screen and (max-width: 767px) {
+  .work-item .work-image:after {
+  	background: rgba(0, 0, 0, .5);
+  }
+  .work-item .work-caption {
+  	bottom: 50%;
+  	opacity: 1;
+  	z-index: 3;
+  	-webkit-transform: translateY(50%);
+  	   -moz-transform: translateY(50%);
+  	        transform: translateY(50%);
+  }
 }
