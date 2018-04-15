@@ -1,7 +1,7 @@
 <?php
 
 	// Mail settings
-	$to = "nelsfoltz@gmail.com";
+	$to = "triplemartiniproductions@gmail.com";
 	$subject = "contact form";
 
 	if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])) {
