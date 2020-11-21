@@ -1,7 +1,8 @@
 /* contact page/about page layout */
 
 .contact-wrapper,
-.about-wrapper {
+.about-wrapper,
+.blackout-wrapper {
   height: 100vh;
   min-height: 100vh;
   display: flex;
@@ -9,7 +10,8 @@
 }
 
 .contact-module,
-.bio-module {
+.bio-module,
+.blackout-module {
   display: flex;
   flex-direction: column;
   justify-content: center;
