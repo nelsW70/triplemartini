@@ -1,3 +1,23 @@
+/* contact page/about page layout */
+
+.contact-wrapper,
+.about-wrapper {
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-module,
+.bio-module {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+/* navbar */
+
 .navbar-custom .navbar-brand {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
@@ -119,20 +139,4 @@
     -moz-transform: translateY(50%);
     transform: translateY(50%);
   }
-}
-
-/* contact page */
-
-.contact-wrapper {
-  height: 100vh;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-module {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex: 1;
 }
