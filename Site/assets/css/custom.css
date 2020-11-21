@@ -1,6 +1,5 @@
-
 .navbar-custom .navbar-brand {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   text-transform: lowercase;
 }
@@ -10,27 +9,27 @@
 .navbar-brand span {
   height: 16px;
   line-height: 13px;
-  position:relative;
+  position: relative;
 }
 
 .navbar-brand > span {
-    float:left;
-    transform: rotate(40deg);
+  float: left;
+  transform: rotate(40deg);
 }
 
 /* header logo color of "m" */
 
 .navbar-brand span:first-of-type {
-  color:#863232;
+  color: #863232;
 }
 
 /* bio image container height */
 
-.ChrisBio {
+.chris-bio {
   min-height: 70vh;
 }
 
-.chrisHeader {
+.chris-header {
   margin-top: 10px;
 }
 
@@ -45,11 +44,10 @@
   transition-delay: initial;
   transition-duration: 0.75s;
   transition-timing-function: initial;
-
 }
 
 .iconBadge {
-  border: .14rem solid #999;
+  border: 0.14rem solid #999;
   border-radius: 10rem;
   display: inline-block;
   font-size: 70%;
@@ -57,8 +55,8 @@
 }
 
 .iconBadge:hover {
-  background-color: rgb(15,15,15);
-  border: .14rem solid rgb(15,15,15);
+  background-color: rgb(15, 15, 15);
+  border: 0.14rem solid rgb(15, 15, 15);
   transition-property: all;
   transition-delay: initial;
   transition-duration: 0.75s;
@@ -111,14 +109,30 @@
 
 @media screen and (max-width: 767px) {
   .work-item .work-image:after {
-  	background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.5);
   }
   .work-item .work-caption {
-  	bottom: 50%;
-  	opacity: 1;
-  	z-index: 3;
-  	-webkit-transform: translateY(50%);
-  	   -moz-transform: translateY(50%);
-  	        transform: translateY(50%);
+    bottom: 50%;
+    opacity: 1;
+    z-index: 3;
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    transform: translateY(50%);
   }
+}
+
+/* contact page */
+
+.contact-wrapper {
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-module {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
 }
