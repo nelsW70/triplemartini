@@ -2,7 +2,9 @@
 
 .contact-wrapper,
 .about-wrapper,
-.blackout-wrapper {
+.blackout-wrapper,
+.crowddating-wrapper,
+.deplorable-wrapper {
   height: 100vh;
   min-height: 100vh;
   display: flex;
@@ -11,7 +13,9 @@
 
 .contact-module,
 .bio-module,
-.blackout-module {
+.blackout-module,
+.crowddating-module,
+.deplorable-module {
   display: flex;
   flex-direction: column;
   justify-content: center;
