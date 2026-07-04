@@ -26,6 +26,13 @@
   flex: 1;
 }
 
+.script-coverage-module {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
 /* navbar */
 
 .navbar-custom .navbar-brand {
