@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/triple11/public_html/
-    - /bin/rsync -avz --exclude '.git' --exclude '.gitignore' --exclude '.cpanel.yml' ./ $DEPLOYPATH
+    - /bin/rsync -avz --exclude=.git --exclude=.gitignore --exclude=.cpanel.yml ./ $DEPLOYPATH
