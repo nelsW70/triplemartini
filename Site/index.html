@@ -147,7 +147,7 @@
                     >Feature Film</a
                   >
                 </li>
-                <li>
+                <!-- <li>
                   <a
                     href="#"
                     data-filter=".music-video"
@@ -155,7 +155,7 @@
                     data-wow-delay="0.5s"
                     >Music Video</a
                   >
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -164,7 +164,7 @@
           <!-- PORTFOLIO LIST -->
           <ul id="works-grid" class="works-grid works-grid-gut works-grid-3">
             <!-- PORTFOLIO ITEM -->
-            <li class="work-item director writer producer feature-film">
+            <!-- <li class="work-item director writer producer feature-film">
               <a href="stowaway.html">
                 <div class="work-image">
                   <img
@@ -181,10 +181,10 @@
                   </div>
                 </div>
               </a>
-            </li>
+            </li> -->
             <!-- /PORTFOLIO ITEM -->
             <!-- PORTFOLIO ITEM -->
-            <li class="work-item director writer music-video">
+            <!-- <li class="work-item director writer music-video">
               <a href="hurricane.html">
                 <div class="work-image">
                   <img
@@ -199,10 +199,10 @@
                   </div>
                 </div>
               </a>
-            </li>
+            </li> -->
             <!-- /PORTFOLIO ITEM -->
             <!-- PORTFOLIO ITEM -->
-            <li class="work-item director writer cinematographer">
+            <!-- <li class="work-item director writer cinematographer">
               <a href="rockport-reset.html">
                 <div class="work-image">
                   <img
@@ -217,10 +217,10 @@
                   </div>
                 </div>
               </a>
-            </li>
+            </li> -->
             <!-- /PORTFOLIO ITEM -->
             <!-- PORTFOLIO ITEM -->
-            <li class="work-item director writer music-video">
+            <!-- <li class="work-item director writer music-video">
               <a href="rolling-strong.html">
                 <div class="work-image">
                   <img
@@ -235,7 +235,7 @@
                   </div>
                 </div>
               </a>
-            </li>
+            </li> -->
             <!-- /PORTFOLIO ITEM -->
             <!-- PORTFOLIO ITEM -->
             <li class="work-item director cinematographer">
@@ -807,18 +807,18 @@
     <script src="assets/js/contact.js"></script>
     <script src="assets/js/custom.js"></script>
     <script>
-      $('a[href*=#]:not([href=#])').click(function () {
+      $("a[href*=#]:not([href=#])").click(function () {
         if (
-          location.pathname.replace(/^\//, '') ==
-            this.pathname.replace(/^\//, '') ||
+          location.pathname.replace(/^\//, "") ==
+            this.pathname.replace(/^\//, "") ||
           location.hostname == this.hostname
         ) {
           var target = $(this.hash);
           target = target.length
             ? target
-            : $('[name=' + this.hash.slice(1) + ']');
+            : $("[name=" + this.hash.slice(1) + "]");
           if (target.length) {
-            $('html,body').animate(
+            $("html,body").animate(
               {
                 scrollTop: target.offset().top - 210,
               },
